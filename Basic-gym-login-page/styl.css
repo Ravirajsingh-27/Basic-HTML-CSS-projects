@@ -1,0 +1,200 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+body,
+html {
+    height: 100vh;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-image: url("wp7952670.webp");
+    background-size: cover;
+
+}
+
+
+
+main {
+
+
+    display: flex;
+    width: 50%;
+    height: 60%;
+    border: 5px solid #51016e7b;
+    border-radius: 7px;
+}
+
+
+
+.left {
+    display: flex;
+    flex-direction: column;
+
+    background: #ead6f9;
+    /* justify-content: space-around; */
+
+    width: 50vw;
+}
+
+.right {
+    width: 50vw;
+
+}
+
+.part1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 15%;
+    padding-top: 50px;
+
+
+}
+
+.part2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-right: 20%;
+
+    padding-top: 50px;
+}
+
+.part3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-top: 50px;
+    position: relative;
+    bottom: 20px;
+
+
+}
+
+.bottomText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottomOptions {
+    display: flex;
+    justify-content: space-around;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bottomText {
+    padding-bottom: 30px;
+}
+
+
+#logIn {
+    color: rgb(85, 61, 61);
+    font-weight: bolder;
+}
+
+#logInPara {
+    font-style: italic;
+    color: #41254b;
+
+
+}
+
+
+button {
+    background-color: rgb(169, 106, 185);
+    width: 200px;
+    height: 30px;
+    margin-left: 20px;
+    border: 2px solid #51016e7b;
+    border-radius: 10px;
+    position: relative;
+    bottom: 10px;
+}
+
+#forgotPassword {
+
+    font-style: italic;
+    font-weight: lighter;
+    font-size: small;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.google {
+    border: 1px solid #51016e7b;
+    border-radius: 5px;
+    position: relative;
+    background-color: rgb(193, 166, 215);
+    width: 100px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+#googleLogo {
+    height: 20px;
+    width: 20px;
+
+    position: relative;
+    right: 5px;
+    top: 1px;
+
+
+
+}
+
+#googleImage {
+
+    border: .25px solid #51016e7b;
+    border-radius: 10px;
+}
+
+
+
+
+.facebook {
+    border: 1px solid #51016e7b;
+    border-radius: 5px;
+    position: relative;
+    background-color: rgb(193, 166, 215);
+    width: 100px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+#facebookLogo {
+    height: 20px;
+    width: 20px;
+
+    position: relative;
+    right: 5px;
+    top: 1px;
+
+}
+
+#facebookImage {
+    border: .25px solid #51016e7b;
+    border-radius: 10px;
+
+}
